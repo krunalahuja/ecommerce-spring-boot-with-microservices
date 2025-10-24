@@ -1,0 +1,24 @@
+package com.ecommerce.user_service.dtos.response;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import org.springframework.http.HttpStatus;
+
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.List;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class DataResponse {
+    private boolean success;
+    private HttpStatus status;
+    private List<Object> data;
+    private long totalElements;
+    private int totalPages;
+    private int currentPage;
+    private int pageSize;
+}
