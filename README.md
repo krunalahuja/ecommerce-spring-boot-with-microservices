@@ -1,6 +1,6 @@
 # E-commerce Spring Boot Microservices
 
-A **full-stack e-commerce platform** built with **Spring Boot microservices architecture** using **Java 25**. The project is modular, scalable, and demonstrates real-world microservices communication, authentication, dynamic queries, and transactional operations. It uses **JWT-based security**, **email notifications for password resets**, and **CriteriaBuilder** for dynamic queries and pagination.
+A **full-stack back-end e-commerce platform** built with **Spring Boot microservices architecture** using **Java 25**. The project is modular, scalable, and demonstrates real-world microservices communication, authentication, dynamic queries, and transactional operations. It uses **JWT-based security**, **email notifications for password resets**, and **CriteriaBuilder** for dynamic queries and pagination.
 
 ## Features
 
